@@ -55,7 +55,8 @@ function getPizzaOrder() {
       pizza.toppings = []
     } else {
       pizza.toppings = toppings.split(",")
-      pizza.cost = toppingsFee * pizza.toppings.length
+      pizza.cost = toppingsFee * pizza.toppings.length+ deliveryFee + basePrice + thickCrustUpcharge
+    
     }
    
     
